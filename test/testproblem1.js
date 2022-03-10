@@ -1,4 +1,9 @@
 
+// const inventory =  require('../inventory.js');
+
+
+
+
 var inventory = [{"id":1,"car_make":"Lincoln","car_model":"Navigator","car_year":2009},
 {"id":2,"car_make":"Mazda","car_model":"Miata MX-5","car_year":2001},
 {"id":3,"car_make":"Land Rover","car_model":"Defender Ice Edition","car_year":2010},
@@ -48,17 +53,32 @@ var inventory = [{"id":1,"car_make":"Lincoln","car_model":"Navigator","car_year"
 {"id":47,"car_make":"Volkswagen","car_model":"Jetta","car_year":2007},
 {"id":48,"car_make":"Dodge","car_model":"Magnum","car_year":2008},
 {"id":49,"car_make":"Chrysler","car_model":"Sebring","car_year":1996},
-{"id":50,"car_make":"Lincoln","car_model":"Town Car","car_year":1999}];
+{"id":50,"car_make":"Lincoln","car_model":"Town Car","car_year":1999}]; 
 
 
 
  const receive = require('../problem1.js');
+
+ const id= 33;
  
- console.log("Car 33 is a", receive.problem1(inventory)["car_year"],receive.problem1(inventory)["car_make"],receive.problem1(inventory)["car_model"]);
+ console.log("Car 33 is a", receive.problem1(inventory,id)["car_year"],receive.problem1(inventory,id)["car_make"],receive.problem1(inventory,id)["car_model"]);
  
  
- 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
  
 
