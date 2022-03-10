@@ -1,4 +1,4 @@
-module.exports.problem4= function (inventory)
+function problem4 (inventory)
   {
   
   
@@ -16,3 +16,5 @@ module.exports.problem4= function (inventory)
   return arr;
   
   }
+
+  module.exports.problem4 = problem4;
