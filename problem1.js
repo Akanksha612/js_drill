@@ -2,7 +2,7 @@
  
  
   
-  module.exports.problem1= function (inventory,id)
+  function problem1(inventory,id)
   {
   
   
@@ -18,3 +18,6 @@
   }
   
   }
+
+
+  module.exports.problem1 = problem1;
