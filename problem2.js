@@ -1,17 +1,7 @@
  function problem2 (inventory)
   {
   
-  
-  for(var i=0;i<inventory.length;i++)
-  {
-  
-  if(i==inventory.length-1)
-  {
-  return inventory[i];
-  }
-
-  
-  }
+  return inventory[inventory.length-1];
   
   }
 
